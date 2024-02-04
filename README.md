@@ -19,7 +19,7 @@ You have connected with your mongoDB
 
 ### Step-4
 curl --location 'localhost:3000/uploadusers' \
---form 'file=@"/C:/Users/amank/Downloads/Users.csv"'
+--form 'file=@"/C:/Users/Downloads/Users.csv"'
 
 You can use above curl in postman or create new request with following end point with method type POST
 localhost:3000/uploadusers
